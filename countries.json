@@ -1,0 +1,91 @@
+{
+    "Anguilla": {
+        "General Policy": "Anguilla has no specific legislation to protect service dogs.",
+        "Import Requirements": "https://www.gov.ai/service/agriculture/agriculture-pet-importexport-requirements"
+    },
+    "Antigua and Barbuda": {
+        "General Policy": "No specific legislation protecting service animals.",
+        "Import Requirements": "https://www.antigua-barbuda.org/Import%20Requirements%20for%20importing%20pets.pdf"
+    },
+    "Argentina": {
+        "General Policy": "Service dogs must be allowed to accompany their owners into public spaces.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-argentina"
+    },
+    "Aruba": {
+        "General Policy": "Aruba does not have legislation protecting service dogs.",
+        "Import Requirements": "https://www.visitaruba.com/traveling-to-aruba/traveling-with-pets/"
+    },
+    "Australia": {
+        "General Policy": "The rights of a person with an Assistance Dog are protected under Federal Law through the Disability Discrimination Act 1992 (DDA 1992).",
+        "Import Requirements": "https://www.agriculture.gov.au/biosecurity-trade/cats-dogs/assistance-dogs#import-conditions-for-assistance-dogs"
+    },
+    "Austria": {
+        "General Policy": "Different types of assistance dogs are covered under Austrian legislation, including guide dogs, signaling dogs, and service dogs.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-austria"
+    },
+    "Bahamas": {
+        "General Policy": "Service animals are allowed access into food establishments.",
+        "Import Requirements": "https://www.bahamas.gov.bs/wps/portal/public/Visiting%20The%20Bahamas/Pets/"
+    },
+    "Bangladesh": {
+        "General Policy": "Bangladesh does not have specific legislation protecting service dogs.",
+        "Import Requirements": "https://bd.usembassy.gov/traveling-with-pets/"
+    },
+    "Barbados": {
+        "General Policy": "Barbados does not have legislation protecting service dogs. Assistance dogs must satisfy the same import conditions as pets.",
+        "Import Requirements": "https://agriculture.gov.bb/Departments/Veterinary-Services/Bringing-Animals-into-Barbados/"
+    },
+    "Belgium": {
+        "General Policy": "Since 2014, it is unlawful in Belgium to refuse access to public places for certified assistance dogs.",
+        "Import Requirements": "https://www.servicedogcertifications.org/guide-for-traveling-with-a-service-dog-in-europe/"
+    },
+    "Belize": {
+        "General Policy": "Belize does not have specific laws protecting service dogs.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-belize"
+    },
+    "Bermuda": {
+        "General Policy": "Service animals are required to meet the same conditions of entry as pet animals. No special concessions are made for service animals once in Bermuda.",
+        "Import Requirements": "https://www.gov.bm/importing-animals-bermuda"
+    },
+    "Bolivia": {
+        "General Policy": "Bolivia does not appear to have specific legislation protecting service dogs.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-bolivia"
+    },
+    "Bonaire": {
+        "General Policy": "No specific legislation for service dogs.",
+        "Import Requirements": "https://infobonaire.com/getting-to-bonaire/visiting-bonaire-with-your-pet/"
+    },
+    "Brazil": {
+        "General Policy": "Guide dogs are permitted on domestic flights with proof of vaccination.",
+        "Import Requirements": "https://www.gov.br/anac/en/topics/passengers/special-assistance"
+    },
+    "Canada": {
+        "General Policy": "Each province has its own service animal laws, but there is no federal standard or certification.",
+        "Import Requirements": "https://capdt.ca/wp-content/uploads/2024/05/Service-animal-laws-in-Canada-SD-Committee.pdf"
+    },
+    "Chile": {
+        "General Policy": "Assistance dogs are permitted to accompany their owners in public spaces and on public transportation.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-chile"
+    },
+    "China": {
+        "General Policy": "China may have additional restrictions on dogs.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-china"
+    },
+    "Colombia": {
+        "General Policy": "Service animals are allowed in public spaces under Ley 1801, 2016.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-colombia"
+    },
+    "Costa Rica": {
+        "General Policy": "Service animals are allowed in public spaces.",
+        "Import Requirements": "https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-costa-rica"
+    },
+    "Cuba": {
+        "General Policy": "No specific legislation for service dogs.",
+        "Import Requirements": "https://www.thecaribbeanpet.com/pet-travel-to-cuba/"
+    },
+    "Curaçao Island": {
+        "General Policy":"No specific legislation for service dogs.",
+        "Import Requirements":"https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-curacao"
+
+    }
+}
