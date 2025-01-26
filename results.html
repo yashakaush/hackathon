@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furry Flights - Policies</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 1rem;
+      text-align: left;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Furry Flights</h1>
+    <p>Your Policies for Service Animals</p>
+  </header>
+
+  <div class="container">
+    <h2 id="resultsTitle"></h2>
+    <p id="resultsContent">Loading rules...</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Furry Flights. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    // Get query parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const airline = urlParams.get('airline');
+    const destination = urlParams.get('destination');
+
+    // Display results dynamically
+    const resultsTitle = document.getElementById('resultsTitle');
+    const resultsContent = document.getElementById('resultsContent');
+
+    resultsTitle.innerText = `Policies for ${airline} and ${destination}`;
+
+    // Placeholder data for policies
+    const policies = {
+      "Delta Airlines": {
+        "Canada": "Service animals must have a rabies certificate and meet Canadian import rules.",
+        "France": "Service animals must have an EU Pet Passport and microchip."
+      },
+      "United Airlines": {
+        "Canada": "Service animals are allowed in the cabin with proper documentation.",
+        "France": "Service animals need to follow EU entry rules and be registered."
+      }
+    };
+
+    // Fetch and display the policy
+    const airlinePolicies = policies[airline] || {};
+    const policy = airlinePolicies[destination] || "No specific policy found for this combination.";
+    resultsContent.innerText = policy;
+  </script>
+</body>
+</html>
