@@ -86,6 +86,10 @@
     "Curaçao Island": {
         "General Policy":"No specific legislation for service dogs.",
         "Import Requirements":"https://www.aphis.usda.gov/pet-travel/us-to-another-country-export/pet-travel-us-curacao"
-
+    },   
+    "United States": {
+        "General Policy": "US definition of a service dog: Service animals are defined as dogs that are individually trained to do work or perform tasks for people with disabilities. Note that: The work or task a dog has been trained to provide must be directly related to the person’s disability. Dogs whose sole function is to provide comfort or emotional support do not qualify as service animals under the ADA.",
+        "Import Requirements": "ADA (Americans with Disabilities Act) (only in the US): Source: https://www.ada.gov/resources/service-animals-2010-requirements/",
+        "Flight Staff Information": "Where can they go: Under the ADA, State and local governments, businesses, and nonprofit organizations that serve the public generally must allow service animals to accompany people with disabilities in all areas of the facility where the public is allowed to go.\nWhat can staff ask about service dogs: When it is not obvious what service an animal provides, only limited inquiries are allowed. Staff may ask two questions: (1) is the dog a service animal required because of a disability, and (2) what work or task has the dog been trained to perform. Staff cannot ask about the person’s disability, require medical documentation, require a special identification card or training documentation for the dog, or ask that the dog demonstrate its ability to perform the work or task.\nNOTE: In the United States, there is no special identification or registry for service animals."
     }
 }
