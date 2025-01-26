@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furry Flights</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 1.5rem 0;
+      margin-bottom: 2rem;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 1rem;
+    }
+
+    input[type="text"], select {
+      width: 100%;
+      padding: 0.8rem;
+      margin: 0.5rem 0;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      width: 100%;
+      padding: 1rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Furry Flights</h1>
+    <p>Plan your travel with service animals, hassle-free.</p>
+  </header>
+
+  <div class="container">
+    <form id="searchForm">
+      <label for="airline">Enter Airline Name:</label>
+      <input type="text" id="airline" name="airline" placeholder="e.g., Delta Airlines" required>
+
+      <label for="destination">Enter Destination Country:</label>
+      <input type="text" id="destination" name="destination" placeholder="e.g., Canada" required>
+
+      <button type="submit">Search Policies</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Furry Flights. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById('searchForm').addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      // Get the input values
+      const airline = document.getElementById('airline').value.trim();
+      const destination = document.getElementById('destination').value.trim();
+
+      // Redirect to results page with query parameters
+      window.location.href = `results.html?airline=${encodeURIComponent(airline)}&destination=${encodeURIComponent(destination)}`;
+    });
+  </script>
+</body>
+</html>
